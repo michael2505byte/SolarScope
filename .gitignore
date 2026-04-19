@@ -1,0 +1,19 @@
+# Ignore model files and folders
+models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+*.pb
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore uploads and results (if desired)
+static/uploads/
+static/results/

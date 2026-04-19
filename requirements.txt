@@ -1,0 +1,49 @@
+# Flask Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Production WSGI Server
+gunicorn==21.2.0
+
+# PyTorch for Deep Learning (Mac compatible - includes MPS support for Apple Silicon)
+# These versions work on both Intel and Apple Silicon Macs
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Transformers (required by geoai) - use compatible version
+transformers>=4.30.0
+
+# TensorFlow (required by transformers/geoai) - Mac compatible
+tensorflow>=2.13.0
+tensorflow-metal>=1.0.0; platform_machine == 'arm64'  # Apple Silicon GPU acceleration
+
+# Protobuf - compatible version to avoid conflicts
+protobuf>=3.20.0,<4.0.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Geospatial Libraries (for solar panel detection)
+rasterio>=1.3.0
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+
+# geoai library for object detection
+# Note: Install from source or pip if available
+# pip install geoai
+
+# Visualization
+matplotlib>=3.8.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Additional utilities
+python-dateutil>=2.8.0
+
+# Optional but recommended
+# GDAL - for advanced geospatial operations (may require system-level installation)
+# GDAL==3.7.3
