@@ -196,7 +196,7 @@ SolarScope/
 
 ```powershell
 # 1️⃣ Clone the repository
-git clone https://github.com/Tushar-Surti/SolarScope.git
+git clone https://github.com/michael2505byte/SolarScope.git
 cd SolarScope
 
 # 2️⃣ Create virtual environment
@@ -224,7 +224,7 @@ python app.py
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/Tushar-Surti/SolarScope.git
+git clone https://github.com/michael2505byte/SolarScope.git
 cd SolarScope
 
 # 2️⃣ Create virtual environment
@@ -670,7 +670,7 @@ Built with ❤️ and powered by:
 
 ---
 
-**SolarScope** © 2026 | [Documentation](README.md) | [Report Bug](https://github.com/yourusername/SolarScope/issues) | [Request Feature](https://github.com/Tushar-Surti/SolarScope/issues)
+**SolarScope** © 2026 | [Documentation](README.md) | [Report Bug](https://github.com/michael2505byte/SolarScope/issues) | [Request Feature](https://github.com/michael2505byte/SolarScope/issues)
 
 ---
 
